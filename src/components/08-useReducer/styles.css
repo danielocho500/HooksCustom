@@ -1,0 +1,33 @@
+body{
+    padding: 50px;
+}
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-form{
+    width: 100%;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+@media (min-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.item{
+    margin-top: 15px;  
+}
+
+.toggle{
+    cursor: pointer;
+}

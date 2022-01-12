@@ -9,10 +9,15 @@ import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHook
 import { HookApp } from './HookApp';
 import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 import { Layout } from './components/05-useLayoutEffect/Layout';
+import { Memorize } from './components/06-memos/Memorize';
+import { MemoHook } from './components/06-memos/MemoHook';
+import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
+import { ToDoApp } from './components/08-useReducer/ToDoApp';
 
 
 ReactDOM.render(
-    <Layout />,
+    <ToDoApp />,
   document.getElementById('root')
 );
 
